@@ -1,0 +1,101 @@
+* {
+  margin: 0vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+.container {
+  display: block;
+  padding: 6vw;
+  background-color: whitesmoke;
+  margin: 5vw;
+  font-size: 2vw;
+}
+
+#progress {
+  display: block;
+  padding: 3vw;
+  background-color: paleturquoise;
+  margin-top: 4vw;
+}
+#selesai {
+  display: block;
+  padding: 3vw;
+  background-color: paleturquoise;
+  margin-top: 1vw;
+}
+
+#tanggal {
+  width: 20vw;
+  height: 3vw;
+}
+
+#Todo {
+  width: 20vw;
+  height: 3vw;
+}
+#add {
+  width: 14vw;
+  height: 3.3vw;
+  font-weight: bold;
+  font-size: 1.8vw;
+}
+#apptext {
+  margin-bottom: 1vw;
+  font-size: 3vw;
+  font-weight: 800;
+}
+
+#apptext1 {
+  display: flex;
+  font-size: 2.5vw;
+  margin-bottom: -3vw;
+}
+#apptext2 {
+  display: flex;
+  padding-left: 21vw;
+  font-size: 2.5vw;
+}
+.apptext3 {
+  font-size: 2.5vw;
+  margin-top: -3vw;
+  margin-left: -2vw;
+  font-weight: 600;
+}
+
+#listbelum {
+  font-size: 2vw;
+}
+
+#listsudah {
+  font-size: 2vw;
+  text-decoration: line-through;
+}
+button {
+  background-color: whitesmoke;
+  border-color: aqua;
+  border-style: groove;
+  height: 3vw;
+}
+ul {
+  list-style-type: none;
+  margin-left: -4.5vw;
+}
+
+#centang {
+  margin-left: 1vw;
+  height: 1.7vw;
+  width: 1.7vw;
+}
+
+#hapusbtn {
+  color: whitesmoke;
+  border-radius: 19%;
+  background-color: black;
+  margin-left: 1vw;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">To Do List App</div>
+      <p id="apptext">To Do List</p>
+      <p id="apptext1">Tanggal</p>
+      <p id="apptext2">Task</p>
+      <form>
+        <input type="date" id="tanggal" />
+        <input type="text" id="Todo" placeholder="Add Item.." />
+        <button type="button" id="add" onclick="addlist()">Tambah Item</button>
+      </form>
+      <div id="progress"><p class="apptext3">Yang Akan Dilakukan</p>
+        <ul id="listbelum"></ul>
+      
+      
+      </div>
+      
+
+
+      <div id="selesai"><p class="apptext3">Yang Sudah Dilakukan</p>
+        <ul id="listsudah">
+          
+        </ul>
+      
+      </div>
+
+    
+    
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
